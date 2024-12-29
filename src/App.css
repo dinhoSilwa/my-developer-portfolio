@@ -3,9 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+.navbar{
+  z-index: 999;
+}
 /* .container-skill:hover{
   .skills:not(:hover){
   filter: grayscale(140%);
   
 }
+} */
+
+/* .container-projects:hover{
+  
+  .project:not(:hover){
+    filter: grayscale();
+  }
+
 } */
