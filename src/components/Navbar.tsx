@@ -50,7 +50,7 @@ const navSocialIcons = [
 export const NavBar = () => {
   const [isOpenMobileMenu, setisOpenMobileMenu] = useState<boolean>(false);
   return (
-    <nav className="z-50 w-[100vw] px-4 lg:px-[10%] relative h-24 flex justify-end items-center gap-12">
+    <nav className="z-50 navbar w-[100vw] px-4 lg:px-[10%] relative h-24 flex justify-end items-center gap-12">
       <div className="font-primary text-[12px] font-bold text-light-primary uppercase flex items-end gap-1 flex-1">
         Claudio silva
       </div>
