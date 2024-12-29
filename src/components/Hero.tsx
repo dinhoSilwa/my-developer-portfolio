@@ -4,12 +4,14 @@ export const Hero = () => {
   const { avatarGithub, isErrorAvatar } = useAvatar();
 
   return (
-    <section className="w-screen h-[80vh] items-center flex justify-around overflow-hidden">
+    <section className="w-screen h-[80vh] items-center flex flex-col-reverse justify-center gap-[10%] lg:flex-row overflow-hidden">
       <p className="text-extra-second font-primary font-bold leading-10 text-white">
         Olá! 👋, <br />
         Meu nome é <br />
-        <span className="text-green-500 hover:text-shadow">Cláudio Silva</span> <br />e sou
-        desenvolvedor web.
+        <span className="text-green-500 hover:text-shadow">
+          Cláudio Silva
+        </span>{" "}
+        <br />e sou desenvolvedor web.
       </p>
 
       <div className="w-[260px] h-[260px] flex items-center justify-center bg-red-50 rounded-full bg-gradient-to-r from-[#077931] to-[#0FE73E] relative">
