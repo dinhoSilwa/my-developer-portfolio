@@ -4,7 +4,7 @@ export const Hero = () => {
   const { avatarGithub, isErrorAvatar } = useAvatar();
 
   return (
-    <section className="w-screen h-[80vh] items-center flex flex-col-reverse justify-center gap-[10%] lg:flex-row overflow-hidden">
+    <section className="w-screen h-[80vh] px-4 items-center flex flex-col-reverse justify-center gap-[10%] lg:flex-row overflow-hidden">
       <p className="text-extra-second font-primary font-bold leading-10 text-white">
         Olá! 👋, <br />
         Meu nome é <br />

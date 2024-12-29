@@ -66,7 +66,7 @@ export const NavBar = () => {
           <a
             href={nav}
             key={index}
-            className="hover:text-blue-200 transition-colors duration-300 text-medium"
+            className="hover:text-blue-200 transition-colors duration-300 text-medium-second md:text-medium"
           >
             {name}
           </a>
