@@ -1,0 +1,139 @@
+{
+  "projects": [
+    {
+      "name": "Portfólio Colaborativo",
+      "image": "https://i.imgur.com/g9dLNuB.png",
+      "description": "O portfólio colaborativo do projeto Frontend Fusion é uma iniciativa que permite aos participantes desenvolverem e compartilharem projetos em conjunto, promovendo a colaboração e o aprendizado coletivo.",
+      "stack": "FrontEnd",
+      "skills": [
+        {
+          "name": "React"
+        },
+        {
+          "name": "TailwindCss"
+        },
+        {
+          "name": "Tanstack"
+        }
+      ],
+      "github": "https://github.com/Projeto-FrontEnd-Fusion/portifolio-colaborativo-codewizard-Eaglescoders.git",
+      "deploy": "https://portifolio-colaborativo-codewizard.onrender.com",
+      "isActive": true
+    },
+    {
+      "name": "Api de Comentário",
+      "image": "https://i.imgur.com/1n76tV2.jpg",
+      "description": "Este projeto coleta comentários do projeto Portfólio Colaborativo. É uma API projetada para capturar os comentários feitos nesta página.",
+      "skills": [
+        {
+          "name": "Nodejs"
+        },
+        {
+          "name": "Express"
+        },
+        {
+          "name": "Mongoose"
+        },
+        {
+          "name": "MongoDb"
+        }
+      ],
+      "github": "https://github.com/dinhoSilwa/eaglescoders-api.git",
+      "deploy": "https://github.com/dinhoSilwa/eaglescoders-api.git",
+      "isActive": true
+    },
+    {
+      "name": "Associação Alimentando com Amor",
+      "image": "https://i.imgur.com/HTsRkty.png",
+      "description": "Desenvolvemos o site da ONG Alimentando com Amor, com foco em navegação intuitiva, otimização de SEO e desempenho, facilitando doações e promovendo a missão de levar alimento e carinho.",
+      "stack": "FrontEnd",
+      "skills": [
+        {
+          "name": "Nextjs"
+        },
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "TailwindCss"
+        }
+      ],
+      "github": "https://github.com/Grupo-Simios/Alimentando_Com_Amor.git",
+      "deploy": "https://alimentandocomamornatal.org/",
+      "isActive": true
+    },
+    {
+      "name": "Gerenciamento de Colaboradores",
+      "image": "https://media.licdn.com/dms/image/v2/D4D2DAQEMs7D3F6zxpg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1732505196368?e=1736060400&v=beta&t=ylR3yDPO1ZH9JeIbpEzm7APn1nRECgBj7D_aNZXTEOA",
+      "description": "O Be-mobile-teste é uma aplicação web em React para gerenciar colaboradores, com autenticação JWT, CRUD completo e uma interface moderna, utilizando Tailwind CSS e uma API RESTful em Node.js.",
+      "skills": [
+        {
+          "name": "React"
+        },
+        {
+          "name": "Nodejs"
+        },
+        {
+          "name": "ExpressJs"
+        },
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "MongoDb"
+        }
+      ],
+      "github": "http://github.com/gestor-de-tarefas",
+      "deploy": "http://gestor-de-tarefas.com",
+      "isActive": false
+    },
+    {
+      "name": "Employer Api",
+      "image": "https://i.imgur.com/BM6qkym.jpg",
+      "description": "O projeto é um sistema de gerenciamento de colaboradores com operações CRUD, validação de dados, filtragem, ordenação e autenticação, desenvolvido com Node.js, TypeScript, Express e Mongoose para MongoDB.",
+      "stack": "backend",
+      "skills": [
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+          "name": "JWT"
+        },
+        {
+          "name": "Mongoose"
+        },
+        {
+          "name": "MongoDB"
+        }
+      ],
+      "github": "https://github.com/dinhoSilwa/Be-mobile-API-.git",
+      "deploy": "https://github.com/dinhoSilwa/Be-mobile-API-.git",
+      "isActive": true
+    },
+    {
+      "name": "EmpBank",
+      "image": "https://i.imgur.com/SKY5KuY.png",
+      "description": "Aplicação de controle financeiro onde o usuário pode cadastrar entradas e saídas mensais. Desenvolvida como desafio técnico para o processo seletivo da Empbank, visando o cargo de Desenvolvedor Fullstack Júnior.",
+      "skills": [
+        {
+          "name": "Reactjs"
+        },
+        {
+          "name": "Tanstack"
+        },
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "Axios"
+        }
+      ],
+      "github": "https://github.com/dinhoSilwa/EmpBank-controle-financeiro.git",
+      "deploy": "https://github.com/dinhoSilwa/EmpBank-controle-financeiro.git",
+      "isActive": true
+    }
+  ]
+}
