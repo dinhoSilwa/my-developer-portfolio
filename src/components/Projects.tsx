@@ -45,12 +45,12 @@ export const Projects = () => {
 
               <div className="flex gap-2">
                 <p className="flex flex-wrap gap-2 px-2 py-1 font-semibold">
-                  {skills.map(({ name }, index) => (
+                  {skills?.map((items) => (
                     <span
                       key={index}
                       className="px-4 py-1 text-[12px] bg-green-600/10 hover:bg-green-700 transition-colors duration-500 text-green-200 hover:text-green-300 font-bold rounded-full"
                     >
-                      {name}
+                      {items.name}
                     </span>
                   ))}
                 </p>

@@ -5,11 +5,11 @@ export interface ProjectsProps {
   name: string;
   image: string;
   description: string;
-  skills: string[];
+  skills?: [{ name: string }];
   github: string;
   deploy: string;
   isActive: boolean;
-  stack?: string
+  stack?: string;
 }
 
 export const useFetchProjects = () => {
