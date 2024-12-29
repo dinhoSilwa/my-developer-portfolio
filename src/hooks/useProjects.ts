@@ -13,7 +13,7 @@ export interface ProjectsProps {
 }
 
 export const useFetchProjects = () => {
-  const url: string = "http://localhost:3001/projects";
+  const url: string = import.meta.env.VITE_URL_PROJECTS;
   const { data, isLoading, isError } = useQuery<ProjectsProps[]>({
     queryKey: ["projects-query"],
     queryFn: async (): Promise<ProjectsProps[]> => {
