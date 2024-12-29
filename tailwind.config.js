@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      screens : {
+        "mobile-mini": "320px",
+        "mobile-medium" : "360px",
+        "mobile-small" : "412px",
+        "mobile-larger" : "640px",
+        
+      },
       boxShadow: {
         'green': '0 4px 100px 10px rgba(7, 121, 49, 0.5), 0 2px 4px -1px rgba(7, 121, 49, 0.3)',
         "text-green": '0 0 10px rgba(0, 0, 0, 0.5)'
